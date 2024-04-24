@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: kunal7860/nodejsapp:latest
+        image: kunal7860/nodejsapp2:latest
         ports:
         - containerPort: 80
