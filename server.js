@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/',(req,res)=>{
     // console.log(req)
-    res.status(200).json({status:200,message:"nothing to show this side: author: 'kunal kumawat'"})
+    res.status(200).json({status:200,message:"nothing Kunal Kumawat to show this side: author: 'kunal kumawat'"})
 })
 
 app.listen(port,()=>{
