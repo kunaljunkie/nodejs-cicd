@@ -1,13 +1,12 @@
-FROM node:18-alpine
+
 
 #app directory
-WORKDIR /app
+WORKDIR /index
 
 #install Dependecies 
-COPY package*.json ./
 
 # run                          
-RUN npm install
+# RUN npm install
 
 #bundle app source 
 COPY . .
