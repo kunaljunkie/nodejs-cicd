@@ -15,7 +15,7 @@ spec:
         app: netflix-app
     spec:
       containers:
-      - name: nodejs-app
-        image: kunal7860/nodejsapp2:latest
+      - name: dogo
+        image: kunal7860/dogo:latest
         ports:
         - containerPort: 80
