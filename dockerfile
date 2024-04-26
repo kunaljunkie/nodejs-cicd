@@ -1,16 +1,5 @@
 
+FROM httpd:2.4
+COPY ./public-html/ /usr/local/apache2/htdocs/
 
-#app directory
-WORKDIR /index
-
-#install Dependecies 
-
-# run                          
-# RUN npm install
-
-#bundle app source 
-COPY . .
-
-EXPOSE 8080
-
-CMD ["npm","start"]
+EXPOSE 80
